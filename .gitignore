@@ -1,0 +1,27 @@
+# Secrets - NEVER commit these
+.env
+.env.*
+!.env.example
+*.key
+credentials.json
+
+# Trading data & logs - keep private
+data/
+logs/
+predictions/
+*.csv
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
